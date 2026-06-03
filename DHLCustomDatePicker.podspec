@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '14.0'
 s.name = "DHLCustomDatePicker"
-s.summary = "Selector de un item/items de un listado"
+s.summary = "Selector de fecha y hora"
 s.requires_arc = true
 
-s.version = "0.1.0"
+s.version = "1.0.0"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -22,7 +22,7 @@ s.framework = "UIKit"
 s.source_files = "DHLCustomDatePicker/**/*.{swift}"
 
 # 9
-s.resources = "DHLCustomDatePicker/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "DHLCustomDatePicker/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 
 # 10
 s.swift_version = "5.0"

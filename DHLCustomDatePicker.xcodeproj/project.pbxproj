@@ -20,6 +20,7 @@
 		2BAD0E1AADC14BBC2FA8EAB5 /* Pods-DHLCustomDatePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHLCustomDatePicker.debug.xcconfig"; path = "Target Support Files/Pods-DHLCustomDatePicker/Pods-DHLCustomDatePicker.debug.xcconfig"; sourceTree = "<group>"; };
 		CDDD92160423A67198E9FE70 /* libPods-DHLCustomDatePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHLCustomDatePicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B16DBD30CBFA4D50B16B2F /* Pods-DHLCustomDatePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHLCustomDatePicker.release.xcconfig"; path = "Target Support Files/Pods-DHLCustomDatePicker/Pods-DHLCustomDatePicker.release.xcconfig"; sourceTree = "<group>"; };
+		D77B34C52FD063C700DAD377 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Strings.strings; sourceTree = "<group>"; };
 		D7EC292A2FCD90CD009A830C /* DHLCustomDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DHLCustomDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EC293A2FCD92AA009A830C /* DHLCustomDatePickerModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLCustomDatePickerModal.swift; sourceTree = "<group>"; };
 		D7EC293B2FCD92AA009A830C /* DHLCustomDatePickerModal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHLCustomDatePickerModal.xib; sourceTree = "<group>"; };
@@ -174,6 +175,7 @@
 			knownRegions = (
 				Base,
 				es,
+				en,
 			);
 			mainGroup = D7EC29202FCD90CD009A830C;
 			minimizedProjectReferenceProxies = 1;
@@ -243,6 +245,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D7EC294A2FCD938E009A830C /* es */,
+				D77B34C52FD063C700DAD377 /* en */,
 			);
 			name = Strings.strings;
 			sourceTree = "<group>";

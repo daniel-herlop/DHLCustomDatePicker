@@ -8,11 +8,11 @@
 import Foundation
 import UIKit
 
-class DHLCustomDatePicker: UIView {
+public class DHLCustomDatePicker: UIView {
     
-    @IBOutlet weak var textLabel: UILabel!
-    @IBOutlet weak var iconImageView: UIImageView!
-    @IBOutlet weak var showDateButton: UIButton!
+    @IBOutlet public weak var textLabel: UILabel!
+    @IBOutlet public weak var iconImageView: UIImageView!
+    @IBOutlet public weak var showDateButton: UIButton!
     
     private var datePickedAction: ((Date) -> Void)?
     private var type: UIDatePicker.Mode?
@@ -21,7 +21,9 @@ class DHLCustomDatePicker: UIView {
     private var maximumDate: Date?
     private var accessibilityTextLabel: String?
     
-    var selectedDate: Date?
+    public var selectedDate: Date?
+    var showUTC: Bool = true
+    var customTintColor: UIColor = .black
 
     override init(frame: CGRect) {
 
@@ -36,8 +38,13 @@ class DHLCustomDatePicker: UIView {
     }
 
     private func nibSetup() {
+        
+        let bundle = Bundle(for: DHLCustomDatePicker.self)
 
-        if let xibView = Bundle.main.loadNibNamed("CustomDatePicker", owner: self, options: nil)?.first as? UIView {
+        if let xibView = bundle.loadNibNamed("DHLCustomDatePicker",
+                                             owner: self,
+                                             options: nil)?.first as? UIView {
+
 
             xibView.frame = self.bounds
             xibView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
@@ -47,7 +54,7 @@ class DHLCustomDatePicker: UIView {
         }
     }
 
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
 
         super.awakeFromNib()
 
@@ -56,25 +63,27 @@ class DHLCustomDatePicker: UIView {
 
     func commonInit() {
         textLabel.isAccessibilityElement = false
-        // textLabel.font = FontsHelper.normal()
         textLabel.text = ""
     }
 
-    func setUp(parent: UIViewController?, type: UIDatePicker.Mode, accessibilityTextLabel: String? = nil, minimumDate: Date? = nil, maximumDate: Date? = nil, datePickedAction: @escaping ((Date) -> Void)) {
+    public func setUp(parent: UIViewController?, type: UIDatePicker.Mode, accessibilityTextLabel: String? = nil, minimumDate: Date? = nil, maximumDate: Date? = nil, showUTC: Bool = true, textFont: UIFont? = nil, customTintColor: UIColor = .black, datePickedAction: @escaping ((Date) -> Void)) {
         self.parent = parent
         self.type = type
         self.datePickedAction = datePickedAction
         self.minimumDate = minimumDate
         self.maximumDate = maximumDate
         self.accessibilityTextLabel = accessibilityTextLabel
+        self.customTintColor = customTintColor
+        
+        textLabel.font = textFont ?? .systemFont(ofSize: 14)
         
         switch type {
             
         case .date:
-            iconImageView.image = UIImage(named: "ic_calendar", in: Bundle(for: DHLCustomDatePicker.self), compatibleWith: nil)?.withTintColor(.black)
+            iconImageView.image = UIImage(named: "ic_calendar", in: Bundle(for: DHLCustomDatePicker.self), compatibleWith: nil)?.withTintColor(customTintColor)
             
         case .time:
-            iconImageView.image = UIImage(named: "ic_time_clock", in: Bundle(for: DHLCustomDatePicker.self), compatibleWith: nil)?.withTintColor(.black)
+            iconImageView.image = UIImage(named: "ic_time_clock", in: Bundle(for: DHLCustomDatePicker.self), compatibleWith: nil)?.withTintColor(customTintColor)
             
         default:
             break
@@ -84,7 +93,7 @@ class DHLCustomDatePicker: UIView {
     }
     
     
-    func setDate(_ date: Date?) {
+    public func setDate(_ date: Date?, performCompletion: Bool = false) {
         guard let date = date else {
             self.selectedDate = nil
             textLabel.text = ""
@@ -93,6 +102,9 @@ class DHLCustomDatePicker: UIView {
         }
         
         self.selectedDate = date
+        
+        let offset = TimeZone.current.secondsFromGMT() / 3600
+        let sign = offset >= 0 ? "+" : ""
         
         switch type {
             
@@ -105,19 +117,31 @@ class DHLCustomDatePicker: UIView {
         case .time:
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "HH:mm"
-            textLabel.text = dateFormatter.string(from: date)
             
+            if showUTC {
+                textLabel.text = "\(dateFormatter.string(from: date)) (UTC \(sign)\(offset))"
+            } else {
+                textLabel.text = dateFormatter.string(from: date)
+            }
         case .dateAndTime:
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "dd/MM/yyyy HH:mm"
-            textLabel.text = dateFormatter.string(from: date)
             
+            if showUTC {
+                textLabel.text = "\(dateFormatter.string(from: date)) (UTC \(sign)\(offset))"
+            } else {
+                textLabel.text = dateFormatter.string(from: date)
+            }
             
         default:
             break
         }
         
-        showDateButton.accessibilityLabel = accessibilityTextLabel?.appending(NSLocalizedString("selected_string",bundle: Bundle(for: DHLCustomDatePicker.self), comment: textLabel.text ?? ""))
+        showDateButton.accessibilityLabel = accessibilityTextLabel?.appending(NSLocalizedString("selected_string", tableName: "Strings", bundle: Bundle(for: DHLCustomDatePicker.self), comment: textLabel.text ?? ""))
+        
+        if performCompletion {
+            datePickedAction?(date)
+        }
     }
     
     func showPicker() {
@@ -130,6 +154,7 @@ class DHLCustomDatePicker: UIView {
             minimumDate: minimumDate,
             maximumDate: maximumDate,
             selectedDate: selectedDate,
+            customTintColor: customTintColor,
             datePickedAction: { date in
                 
                 if self.type == .dateAndTime {

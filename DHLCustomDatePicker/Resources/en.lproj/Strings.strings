@@ -1,0 +1,10 @@
+/* 
+  Strings.strings
+  DHLCustomDatePicker
+
+  Created by Daniel Hernandez on 1/6/26.
+  
+*/
+"back"="Back";
+"next"="Next";
+"selected_string"=". selected: %@. ";
