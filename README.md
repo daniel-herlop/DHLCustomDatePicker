@@ -7,7 +7,9 @@ Date/hour selector.
 
 ## Preview
 ![Screenshot](docs/screenshot1.png)
+
 ![Screenshot](docs/screenshot2.png)
+
 ![Screenshot](docs/screenshot3.png)
 
 ## Installation
