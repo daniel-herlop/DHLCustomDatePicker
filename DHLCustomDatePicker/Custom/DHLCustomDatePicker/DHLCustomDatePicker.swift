@@ -145,9 +145,20 @@ public class DHLCustomDatePicker: UIView {
     }
     
     func showPicker() {
-        let customDatePickerModal = DHLCustomDatePickerModal(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
-
+        let customDatePickerModal = DHLCustomDatePickerModal(frame: .zero)
+        customDatePickerModal.translatesAutoresizingMaskIntoConstraints = false
+        
         parent?.view.window?.addSubview(customDatePickerModal)
+        
+        if let parent = self.parent?.view {
+            
+            NSLayoutConstraint.activate([
+                customDatePickerModal.topAnchor.constraint(equalTo: parent.topAnchor),
+                customDatePickerModal.bottomAnchor.constraint(equalTo: parent.bottomAnchor),
+                customDatePickerModal.leadingAnchor.constraint(equalTo: parent.leadingAnchor),
+                customDatePickerModal.trailingAnchor.constraint(equalTo: parent.trailingAnchor)
+            ])
+        }
 
         customDatePickerModal.setUp(
             type: self.type,
@@ -175,10 +186,21 @@ public class DHLCustomDatePicker: UIView {
     }
     
     func showHourPicker(_ date: Date) {
-        let customDatePickerModal = DHLCustomDatePickerModal(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
-
+        let customDatePickerModal = DHLCustomDatePickerModal(frame: .zero)
+        customDatePickerModal.translatesAutoresizingMaskIntoConstraints = false
+        
         parent?.view.window?.addSubview(customDatePickerModal)
 
+        if let parent = self.parent?.view {
+            
+            NSLayoutConstraint.activate([
+                customDatePickerModal.topAnchor.constraint(equalTo: parent.topAnchor),
+                customDatePickerModal.bottomAnchor.constraint(equalTo: parent.bottomAnchor),
+                customDatePickerModal.leadingAnchor.constraint(equalTo: parent.leadingAnchor),
+                customDatePickerModal.trailingAnchor.constraint(equalTo: parent.trailingAnchor)
+            ])
+        }
+        
         customDatePickerModal.setUp(
             type: .time,
             minimumDate: minimumDate,
