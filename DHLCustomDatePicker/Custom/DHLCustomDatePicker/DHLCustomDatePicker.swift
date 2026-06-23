@@ -148,9 +148,9 @@ public class DHLCustomDatePicker: UIView {
         let customDatePickerModal = DHLCustomDatePickerModal(frame: .zero)
         customDatePickerModal.translatesAutoresizingMaskIntoConstraints = false
         
-        parent?.view.window?.addSubview(customDatePickerModal)
-        
         if let parent = self.parent?.view {
+            
+            parent.addSubview(customDatePickerModal)
             
             NSLayoutConstraint.activate([
                 customDatePickerModal.topAnchor.constraint(equalTo: parent.topAnchor),
@@ -188,10 +188,10 @@ public class DHLCustomDatePicker: UIView {
     func showHourPicker(_ date: Date) {
         let customDatePickerModal = DHLCustomDatePickerModal(frame: .zero)
         customDatePickerModal.translatesAutoresizingMaskIntoConstraints = false
-        
-        parent?.view.window?.addSubview(customDatePickerModal)
 
         if let parent = self.parent?.view {
+            
+            parent.addSubview(customDatePickerModal)
             
             NSLayoutConstraint.activate([
                 customDatePickerModal.topAnchor.constraint(equalTo: parent.topAnchor),
