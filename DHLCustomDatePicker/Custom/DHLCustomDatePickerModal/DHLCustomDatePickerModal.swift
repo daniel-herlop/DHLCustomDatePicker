@@ -42,7 +42,7 @@ class DHLCustomDatePickerModal: UIView {
 
         backgroundColor = .clear
         
-        let bundle = Bundle(for: DHLCustomDatePickerModal.self)
+        let bundle = Bundle.dhlResources
 
         if let xibView = bundle.loadNibNamed("DHLCustomDatePickerModal",
                                              owner: self,
@@ -67,8 +67,8 @@ class DHLCustomDatePickerModal: UIView {
         self.accessibilityViewIsModal = true
         
         backgroundButton.isAccessibilityElement = false
-        cancelButton.accessibilityLabel = NSLocalizedString("back", tableName: "Strings", bundle: Bundle(for: DHLCustomDatePickerModal.self), comment: "")
-        saveButton.accessibilityLabel = NSLocalizedString("next", tableName: "Strings", bundle: Bundle(for: DHLCustomDatePickerModal.self), comment: "")
+        cancelButton.accessibilityLabel = NSLocalizedString("back", tableName: "Strings", bundle: Bundle.dhlResources, comment: "")
+        saveButton.accessibilityLabel = NSLocalizedString("next", tableName: "Strings", bundle: Bundle.dhlResources, comment: "")
         cancelButtonLabel.isAccessibilityElement = false
         saveButtonLabel.isAccessibilityElement = false
         
@@ -78,11 +78,11 @@ class DHLCustomDatePickerModal: UIView {
         saveButtonView.layer.cornerRadius = 8
         cancelButtonView.layer.borderWidth = 1
         
-        cancelButtonLabel.text = NSLocalizedString("back", tableName: "Strings", bundle: Bundle(for: DHLCustomDatePickerModal.self), comment: "")
-        saveButtonLabel.text = NSLocalizedString("next", tableName: "Strings", bundle: Bundle(for: DHLCustomDatePickerModal.self), comment: "")
+        cancelButtonLabel.text = NSLocalizedString("back", tableName: "Strings", bundle: Bundle.dhlResources, comment: "")
+        saveButtonLabel.text = NSLocalizedString("next", tableName: "Strings", bundle: Bundle.dhlResources, comment: "")
     }
 
-    func setUp(type: UIDatePicker.Mode?, minimumDate: Date? = nil, maximumDate: Date? = nil, selectedDate: Date? = nil, textFont: UIFont? = nil, customTintColor: UIColor = .black, datePickedAction: @escaping ((Date) -> Void), cancelAction: @escaping (() -> Void)) {
+    func setUp(type: UIDatePicker.Mode?, minimumDate: Date? = nil, maximumDate: Date? = nil, selectedDate: Date? = nil, textFont: UIFont? = nil, saveText: String? = nil, customTintColor: UIColor = .black, datePickedAction: @escaping ((Date) -> Void), cancelAction: @escaping (() -> Void)) {
 
         self.datePickedAction = datePickedAction
         self.cancelAction = cancelAction
@@ -93,6 +93,10 @@ class DHLCustomDatePickerModal: UIView {
         
         cancelButtonLabel.font = textFont ?? .systemFont(ofSize: 14)
         saveButtonLabel.font = textFont ?? .systemFont(ofSize: 14)
+        
+        if let saveText = saveText {
+            saveButtonLabel.text = saveText
+        }
         
         if type == .time {
             datePicker.preferredDatePickerStyle = .wheels

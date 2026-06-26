@@ -1,0 +1,6 @@
+module DHLCustomDatePicker {
+  umbrella header "DHLCustomDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

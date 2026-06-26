@@ -22,9 +22,11 @@ public class DHLCustomDatePicker: UIView {
     private var accessibilityTextLabel: String?
     
     public var selectedDate: Date?
-    var showUTC: Bool = true
-    var customTintColor: UIColor = .black
-
+    private var showUTC: Bool = true
+    private var customTintColor: UIColor = .black
+    private var customTintModalColor: UIColor = .black
+    private var saveText: String?
+    
     override init(frame: CGRect) {
 
         super.init(frame: frame)
@@ -39,7 +41,7 @@ public class DHLCustomDatePicker: UIView {
 
     private func nibSetup() {
         
-        let bundle = Bundle(for: DHLCustomDatePicker.self)
+        let bundle = Bundle.dhlResources
 
         if let xibView = bundle.loadNibNamed("DHLCustomDatePicker",
                                              owner: self,
@@ -66,7 +68,7 @@ public class DHLCustomDatePicker: UIView {
         textLabel.text = ""
     }
 
-    public func setUp(parent: UIViewController?, type: UIDatePicker.Mode, accessibilityTextLabel: String? = nil, minimumDate: Date? = nil, maximumDate: Date? = nil, showUTC: Bool = true, textFont: UIFont? = nil, customTintColor: UIColor = .black, datePickedAction: @escaping ((Date) -> Void)) {
+    public func setUp(parent: UIViewController?, type: UIDatePicker.Mode, accessibilityTextLabel: String? = nil, minimumDate: Date? = nil, maximumDate: Date? = nil, showUTC: Bool = true, textFont: UIFont? = nil, saveText: String? = nil, customTintColor: UIColor = .black, customTintModalColor: UIColor = .black, datePickedAction: @escaping ((Date) -> Void)) {
         self.parent = parent
         self.type = type
         self.datePickedAction = datePickedAction
@@ -74,16 +76,18 @@ public class DHLCustomDatePicker: UIView {
         self.maximumDate = maximumDate
         self.accessibilityTextLabel = accessibilityTextLabel
         self.customTintColor = customTintColor
+        self.customTintModalColor = customTintModalColor
+        self.saveText = saveText
         
         textLabel.font = textFont ?? .systemFont(ofSize: 14)
         
         switch type {
             
         case .date:
-            iconImageView.image = UIImage(named: "ic_calendar", in: Bundle(for: DHLCustomDatePicker.self), compatibleWith: nil)?.withTintColor(customTintColor)
+            iconImageView.image = UIImage(named: "ic_calendar", in: Bundle.dhlResources, compatibleWith: nil)?.withTintColor(customTintColor)
             
         case .time:
-            iconImageView.image = UIImage(named: "ic_time_clock", in: Bundle(for: DHLCustomDatePicker.self), compatibleWith: nil)?.withTintColor(customTintColor)
+            iconImageView.image = UIImage(named: "ic_time_clock", in: Bundle.dhlResources, compatibleWith: nil)?.withTintColor(customTintColor)
             
         default:
             break
@@ -91,7 +95,6 @@ public class DHLCustomDatePicker: UIView {
         
         showDateButton.accessibilityLabel = accessibilityTextLabel
     }
-    
     
     public func setDate(_ date: Date?, performCompletion: Bool = false) {
         guard let date = date else {
@@ -137,7 +140,7 @@ public class DHLCustomDatePicker: UIView {
             break
         }
         
-        showDateButton.accessibilityLabel = accessibilityTextLabel?.appending(NSLocalizedString("selected_string", tableName: "Strings", bundle: Bundle(for: DHLCustomDatePicker.self), comment: textLabel.text ?? ""))
+        showDateButton.accessibilityLabel = accessibilityTextLabel?.appending(NSLocalizedString("selected_string", tableName: "Strings", bundle: Bundle.dhlResources, comment: textLabel.text ?? ""))
         
         if performCompletion {
             datePickedAction?(date)
@@ -165,7 +168,8 @@ public class DHLCustomDatePicker: UIView {
             minimumDate: minimumDate,
             maximumDate: maximumDate,
             selectedDate: selectedDate,
-            customTintColor: customTintColor,
+            saveText: saveText,
+            customTintColor: customTintModalColor,
             datePickedAction: { date in
                 
                 if self.type == .dateAndTime {
@@ -206,6 +210,8 @@ public class DHLCustomDatePicker: UIView {
             minimumDate: minimumDate,
             maximumDate: maximumDate,
             selectedDate: selectedDate,
+            saveText: saveText,
+            customTintColor: customTintModalColor,
             datePickedAction: { hour in
                 
                 if let dateAndHour = date.combineWithDateHour(hour) {

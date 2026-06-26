@@ -1,0 +1,23 @@
+PODS:
+  - DHLCustomDatePicker (1.0.3)
+  - R.swift (7.8.0)
+
+DEPENDENCIES:
+  - DHLCustomDatePicker (from `..`)
+  - R.swift
+
+SPEC REPOS:
+  trunk:
+    - R.swift
+
+EXTERNAL SOURCES:
+  DHLCustomDatePicker:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  DHLCustomDatePicker: 9874ae95ef13a7668bcc3c8d665c8bf12bf264e0
+  R.swift: f573269ca45b2ab066c082e363dd4c2b297b0d71
+
+PODFILE CHECKSUM: b1b8e29629bec612e7ba8d5665f2fd66de0c6722
+
+COCOAPODS: 1.16.2

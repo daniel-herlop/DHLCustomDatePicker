@@ -1,0 +1,1100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043EDF3E8EA9DD58DDB62F7736CF02B2 /* StoryboardReference+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748B6182DDFC5F19B2BCDEB1AB54E860 /* StoryboardReference+Integrations.swift */; };
+		05D0892069657ABCAD0796C38095938F /* FileResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B7338D00ECE772BF3315C667BF457B /* FileResource+Integrations.swift */; };
+		069A0E3DEA0E9C63869126BE9D89BD41 /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DAC91CF737D738227FCEDD3D78BB55 /* FileResource.swift */; };
+		09ADF7FE37BA90916059BB6C15339079 /* ReuseIdentifier+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1655716619A484B7F0E0AA458C28A /* ReuseIdentifier+Integrations.swift */; };
+		11F65C6C4BE6E97FBB88C77092F59621 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4597D4EB602468F9985382499374F3DC /* StringResource.swift */; };
+		1B59A858F713A361D963D64EBB91E3B2 /* StringParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DF41C16D1CE6383674BA8033AAB4B /* StringParam.swift */; };
+		1BD1B221D67FE5DE8FD9D0A74BF6B665 /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C783BDCE9DE73CF950931CADFC8027A7 /* FontResource.swift */; };
+		1D6AAE437D4442C1B5178BF351DC8172 /* DHLCustomDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2FAF2AD72B2F746C7DB95A4FE98FD6 /* DHLCustomDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		200BEA5FFD55713F147C5DD12E923034 /* DeploymentTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7B6F48EDC8E1418FDD31516A4E08D9 /* DeploymentTarget.swift */; };
+		2178855AECCA79953253D603EDBDA5F1 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932C98D4B5CBF35F438660EEAEC88056 /* Reusable.swift */; };
+		2398CAF15A0EFBEAAF0B4A0CD059CDAE /* StringResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47748B537F768AF6C136076DABAC29A6 /* StringResource+Integrations.swift */; };
+		253A63702AC8BAC3CBEA1A6FA732D263 /* R.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D92D7C5E06B377504A19D06AF3AA7 /* R.swift-dummy.m */; };
+		2D6E04A774EBD7913E2E520F1A380757 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E502162F64028620AB3116216016E650 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35504AF960D1AC934DB1CCA81FC929FA /* TypeReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E79F28330C59DE36B7859B2AABC1EFE /* TypeReference.swift */; };
+		383BF5A5574D905855C66835D13832B9 /* DataResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55749926304F53C7BA8CCBD599972C /* DataResource.swift */; };
+		3897D562C6B47098579453B9196ECA2F /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552340E316DF61867FBDF42C500B9DE /* NibResource.swift */; };
+		3BA69B22287C5E2E2E3728642FAC487F /* ColorResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77E1439CD31F49E42AADE0B0E303D6 /* ColorResource+Integrations.swift */; };
+		4412FB944BA50E12271062B8BDBCE568 /* R.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 323A3B22BD073F87D069CC9A8E225149 /* R.swift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49D8B3B2A8B6B6645FE318094D3C7E36 /* SegueIdentifier+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92BB7FF2FE2F318CFA05BF3D26CA1F2 /* SegueIdentifier+Integrations.swift */; };
+		4B026B67664244CCBBBDF435A4BB5E73 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA17C12DFF93337D7D9AE9D2BA630D61 /* ValidationError.swift */; };
+		505E1A7BA76CB421F0F309DE482F8FDC /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8D2190D165A86988AB26F8845EFF98 /* Pods-Example-dummy.m */; };
+		611AA2B580A3F6DF40DF5DC45749A619 /* FontResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B34BE3BAE2EBF32DB2AE8E4594BDD /* FontResource+Integrations.swift */; };
+		67732D10CF2EBB56C5246EEA61791EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6062B4A3699A675CC6D63253883AF7 /* Assets.xcassets */; };
+		68142E23A757A0444D19C003A3C8DB3C /* DataResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748B50B8C9F1A318B786829EB514449E /* DataResource+Integrations.swift */; };
+		6E4F2EC3C4A59FD9D74B9A88B6AF14B6 /* StringParam+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA613D973624B229ADDB6EB959468CCF /* StringParam+Extensions.swift */; };
+		7051A84A37FF128D9C20C52CAC69568B /* DHLCustomDatePickerModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8797A75F343D89F3D0FD1142AFD7D3D3 /* DHLCustomDatePickerModal.swift */; };
+		7A2B91D8A71F82FEAC84E4FF562D6C77 /* ModuleReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB7CE8082E8EC98F18201777CB429B /* ModuleReference.swift */; };
+		7CC6FD1EF56A83F28CDE8254E66DFA44 /* StoryboardReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82567F4EE63BF21DFF7DCF0FA796EFE /* StoryboardReference.swift */; };
+		88BE76345D6672D3AC105CCC5FD862E7 /* BundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC4AB4FEAD2454473C6C10C80BF79D /* BundleHelper.swift */; };
+		8F63EBDF82D91E6BD755B8306A4CB5A6 /* StringsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388A032719EC173A35E85E25CEC628E /* StringsTable.swift */; };
+		98749F823B49502386CE9CE1B7954FB3 /* NibReference+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B63CF2BBF0C3948C3BC47C60AE1B0D /* NibReference+Integrations.swift */; };
+		9B60000B681D2EF76883F197391D12A9 /* DHLCustomDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6B441159A3DE3902FBD71BFB8763FB /* DHLCustomDatePicker-dummy.m */; };
+		9C017D8F5D6481702758D7F41924A74E /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575CD9F452224904AB6520CAF9929CD5 /* ImageResource.swift */; };
+		A65F4A8DD24DA6D7BFBFA7923490BA0B /* ImageResource+Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05CBF023144622042468D519255E5BF /* ImageResource+Integrations.swift */; };
+		AA65345EE8CE469F72D033C6DFB0C27F /* DHLCustomDatePickerModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42477D5BEB9490F67C3BC2B28A139AA2 /* DHLCustomDatePickerModal.xib */; };
+		AF3E1895495744E4771B58E46EDB989E /* PropertyListResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB59A0563791317C9F4B31B5ABD0A8 /* PropertyListResource.swift */; };
+		B7080FC5B6353670E8BE8834D6D9A4D3 /* DHLCustomDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFAEFAA306B776066C7DCCA5CAB4EA /* DHLCustomDatePicker.xib */; };
+		C1F301EDCBBE44DD44065D1D47E4B072 /* LocaleReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11BA17B3CC2D835DBCCF7BC24DB73AC /* LocaleReference.swift */; };
+		CE2088A3B7F9E817FDAD1679B8085A7E /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69543B67B85173BF6F063FFF7501EBF /* Bundle+Extensions.swift */; };
+		CF62E341A720926E984893B1472BE6E9 /* Strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25FC8B5F646235688102C4ECF8B6A519 /* Strings.strings */; };
+		D2A31033083E93690387EFA18A2ED2ED /* AssetCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F1ABDD9E6E149E3636B5E030916336 /* AssetCatalog.swift */; };
+		D78269D968C2D446F5D11F4051B4CB36 /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EAD167D71D7448D32C455BE5608C5 /* StoryboardResource.swift */; };
+		DF66400F9451B3B98B1FEA8D1DC82010 /* Unifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D482E4E4298FA903693317844CBEA /* Unifiable.swift */; };
+		F5C0E5D168CA07E6A22022B90C66EFCC /* NameCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BA5E9BE9A4B778B2EB671435E8AB21 /* NameCatalog.swift */; };
+		FE730F84C0B05E4E14F285F7600EAC2F /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0385BA29159305467C0547C16CCFEA7 /* ColorResource.swift */; };
+		FF610C08C79F56D5A663F336D2F52561 /* DHLCustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CEEACB22C1F955C4DE731A268A8B96 /* DHLCustomDatePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11BF62653D3CEAD2CC0F59904E107B4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B154934C7B0C5981DDBF01B115F5ACE;
+			remoteInfo = DHLCustomDatePicker;
+		};
+		BB6622D05F1FA69D4DA181B49F732250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230984053C6652DFF510F450F21C5CF7;
+			remoteInfo = R.swift;
+		};
+		F8B38EB1EF01D97C58245610815CD3F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96FA8C7A5631DFB1A14E102C389CA5D6;
+			remoteInfo = "DHLCustomDatePicker-DHLCustomDatePickerResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030B5A77BABE115F1E6C2C239E388F98 /* screenshot2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = screenshot2.png; path = docs/screenshot2.png; sourceTree = "<group>"; };
+		0547AE5857C4A2667F4E6604A9638930 /* R.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.debug.xcconfig; sourceTree = "<group>"; };
+		054D482E4E4298FA903693317844CBEA /* Unifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unifiable.swift; path = Sources/RswiftResources/Shared/Unifiable.swift; sourceTree = "<group>"; };
+		0E79F28330C59DE36B7859B2AABC1EFE /* TypeReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeReference.swift; path = Sources/RswiftResources/Shared/TypeReference.swift; sourceTree = "<group>"; };
+		1A55749926304F53C7BA8CCBD599972C /* DataResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataResource.swift; path = Sources/RswiftResources/DataResource.swift; sourceTree = "<group>"; };
+		1D3D92D7C5E06B377504A19D06AF3AA7 /* R.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "R.swift-dummy.m"; sourceTree = "<group>"; };
+		1DFB7B3BFB6BA725569D833AC9C6AACE /* Strings.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Strings.strings; path = en.lproj/Strings.strings; sourceTree = "<group>"; };
+		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Example"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23269E75E71F152B37625B272380211A /* screenshot1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = screenshot1.png; path = docs/screenshot1.png; sourceTree = "<group>"; };
+		323A3B22BD073F87D069CC9A8E225149 /* R.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift-umbrella.h"; sourceTree = "<group>"; };
+		3552340E316DF61867FBDF42C500B9DE /* NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = Sources/RswiftResources/NibResource.swift; sourceTree = "<group>"; };
+		3AC62709AF8102176A6500697741CD5E /* ResourceBundle-DHLCustomDatePickerResources-DHLCustomDatePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DHLCustomDatePickerResources-DHLCustomDatePicker-Info.plist"; sourceTree = "<group>"; };
+		3D9449D136464BAF5ADC95DC0816C704 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = R.swift; path = libR.swift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		42477D5BEB9490F67C3BC2B28A139AA2 /* DHLCustomDatePickerModal.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = DHLCustomDatePickerModal.xib; sourceTree = "<group>"; };
+		441D77CD2FAB07C577EE0E248BDAB35D /* R.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = R.swift.modulemap; sourceTree = "<group>"; };
+		4597D4EB602468F9985382499374F3DC /* StringResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringResource.swift; path = Sources/RswiftResources/StringResource.swift; sourceTree = "<group>"; };
+		47748B537F768AF6C136076DABAC29A6 /* StringResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/StringResource+Integrations.swift"; sourceTree = "<group>"; };
+		498A44E0F56CD81DD9E004882CACA99A /* Strings.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Strings.strings; path = es.lproj/Strings.strings; sourceTree = "<group>"; };
+		4B2FAF2AD72B2F746C7DB95A4FE98FD6 /* DHLCustomDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DHLCustomDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		542DF41C16D1CE6383674BA8033AAB4B /* StringParam.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringParam.swift; path = Sources/RswiftResources/Shared/StringParam.swift; sourceTree = "<group>"; };
+		575CD9F452224904AB6520CAF9929CD5 /* ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageResource.swift; path = Sources/RswiftResources/ImageResource.swift; sourceTree = "<group>"; };
+		58AC4AB4FEAD2454473C6C10C80BF79D /* BundleHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundleHelper.swift; sourceTree = "<group>"; };
+		5EFB7CE8082E8EC98F18201777CB429B /* ModuleReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleReference.swift; path = Sources/RswiftResources/Shared/ModuleReference.swift; sourceTree = "<group>"; };
+		5F6EAD167D71D7448D32C455BE5608C5 /* StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardResource.swift; path = Sources/RswiftResources/StoryboardResource.swift; sourceTree = "<group>"; };
+		6288C0646DF749075C104F6A29F35E94 /* DHLCustomDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DHLCustomDatePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		66BA5E9BE9A4B778B2EB671435E8AB21 /* NameCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NameCatalog.swift; path = Sources/RswiftResources/Shared/NameCatalog.swift; sourceTree = "<group>"; };
+		6842CE501DB9E6B0407B3FC39F3645BC /* DHLCustomDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DHLCustomDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		684B34BE3BAE2EBF32DB2AE8E4594BDD /* FontResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FontResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/FontResource+Integrations.swift"; sourceTree = "<group>"; };
+		6D818A4D0EDB28DCF0082BC8FD7E6C4F /* DHLCustomDatePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DHLCustomDatePicker.debug.xcconfig; sourceTree = "<group>"; };
+		6E7B6F48EDC8E1418FDD31516A4E08D9 /* DeploymentTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeploymentTarget.swift; path = Sources/RswiftResources/Shared/DeploymentTarget.swift; sourceTree = "<group>"; };
+		744BF815CFB769642B844DC5CE1AB066 /* DHLCustomDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DHLCustomDatePicker.modulemap; sourceTree = "<group>"; };
+		748B50B8C9F1A318B786829EB514449E /* DataResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DataResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/DataResource+Integrations.swift"; sourceTree = "<group>"; };
+		748B6182DDFC5F19B2BCDEB1AB54E860 /* StoryboardReference+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StoryboardReference+Integrations.swift"; path = "Sources/RswiftResources/Integrations/StoryboardReference+Integrations.swift"; sourceTree = "<group>"; };
+		77CEEACB22C1F955C4DE731A268A8B96 /* DHLCustomDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DHLCustomDatePicker.swift; sourceTree = "<group>"; };
+		7A95DFA2E56A3CDF0576B905A2F3F084 /* DHLCustomDatePicker */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = DHLCustomDatePicker; path = libDHLCustomDatePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8390C1797A666D89BE05AA8852B57C3F /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		86B7338D00ECE772BF3315C667BF457B /* FileResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/FileResource+Integrations.swift"; sourceTree = "<group>"; };
+		8797A75F343D89F3D0FD1142AFD7D3D3 /* DHLCustomDatePickerModal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DHLCustomDatePickerModal.swift; sourceTree = "<group>"; };
+		8BEFAEFAA306B776066C7DCCA5CAB4EA /* DHLCustomDatePicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = DHLCustomDatePicker.xib; sourceTree = "<group>"; };
+		8CDB59A0563791317C9F4B31B5ABD0A8 /* PropertyListResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyListResource.swift; path = Sources/RswiftResources/PropertyListResource.swift; sourceTree = "<group>"; };
+		8DF2F1EEB1D71447F8F4A6D1BC8A812A /* screenshot3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = screenshot3.png; path = docs/screenshot3.png; sourceTree = "<group>"; };
+		8E3451E6F481D3A92D950285A5AFC6BB /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		932C98D4B5CBF35F438660EEAEC88056 /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = Sources/RswiftResources/Shared/Reusable.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05CBF023144622042468D519255E5BF /* ImageResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ImageResource+Integrations.swift"; sourceTree = "<group>"; };
+		A17761FCBF0C42D2747F176250E12C3F /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		A5A8CC5AB455B8F017E8F7AD001AF18D /* DHLCustomDatePicker-DHLCustomDatePickerResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DHLCustomDatePicker-DHLCustomDatePickerResources"; path = DHLCustomDatePickerResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6B441159A3DE3902FBD71BFB8763FB /* DHLCustomDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DHLCustomDatePicker-dummy.m"; sourceTree = "<group>"; };
+		AA77E1439CD31F49E42AADE0B0E303D6 /* ColorResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ColorResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ColorResource+Integrations.swift"; sourceTree = "<group>"; };
+		B0DAC91CF737D738227FCEDD3D78BB55 /* FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileResource.swift; path = Sources/RswiftResources/FileResource.swift; sourceTree = "<group>"; };
+		B253E2B493B23EF078CB56DEAE334873 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BA613D973624B229ADDB6EB959468CCF /* StringParam+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringParam+Extensions.swift"; path = "Sources/RswiftResources/Shared/StringParam+Extensions.swift"; sourceTree = "<group>"; };
+		BD7866B2B30C313056837B983F1071EB /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		C783BDCE9DE73CF950931CADFC8027A7 /* FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = Sources/RswiftResources/FontResource.swift; sourceTree = "<group>"; };
+		CCB43FDA2424F206FEED4D097721FBE8 /* R.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.release.xcconfig; sourceTree = "<group>"; };
+		D0385BA29159305467C0547C16CCFEA7 /* ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = Sources/RswiftResources/ColorResource.swift; sourceTree = "<group>"; };
+		D11BA17B3CC2D835DBCCF7BC24DB73AC /* LocaleReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocaleReference.swift; path = Sources/RswiftResources/Shared/LocaleReference.swift; sourceTree = "<group>"; };
+		D1F1ABDD9E6E149E3636B5E030916336 /* AssetCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetCatalog.swift; path = Sources/RswiftResources/AssetCatalog.swift; sourceTree = "<group>"; };
+		D388A032719EC173A35E85E25CEC628E /* StringsTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringsTable.swift; path = Sources/RswiftResources/Shared/StringsTable.swift; sourceTree = "<group>"; };
+		D82567F4EE63BF21DFF7DCF0FA796EFE /* StoryboardReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardReference.swift; path = Sources/RswiftResources/Shared/StoryboardReference.swift; sourceTree = "<group>"; };
+		D8B63CF2BBF0C3948C3BC47C60AE1B0D /* NibReference+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NibReference+Integrations.swift"; path = "Sources/RswiftResources/Integrations/NibReference+Integrations.swift"; sourceTree = "<group>"; };
+		DA17C12DFF93337D7D9AE9D2BA630D61 /* ValidationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationError.swift; path = Sources/RswiftResources/Shared/ValidationError.swift; sourceTree = "<group>"; };
+		DAD8FC1C05C3A265F0125B44562436CC /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB6062B4A3699A675CC6D63253883AF7 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1E28929D63FBFA8CA8DB4E4A503FF1E /* DHLCustomDatePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DHLCustomDatePicker.release.xcconfig; sourceTree = "<group>"; };
+		E502162F64028620AB3116216016E650 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		E69543B67B85173BF6F063FFF7501EBF /* Bundle+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extensions.swift"; path = "Sources/RswiftResources/Integrations/Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		E92BB7FF2FE2F318CFA05BF3D26CA1F2 /* SegueIdentifier+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SegueIdentifier+Integrations.swift"; path = "Sources/RswiftResources/Integrations/SegueIdentifier+Integrations.swift"; sourceTree = "<group>"; };
+		ECD1655716619A484B7F0E0AA458C28A /* ReuseIdentifier+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReuseIdentifier+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ReuseIdentifier+Integrations.swift"; sourceTree = "<group>"; };
+		EE8D2190D165A86988AB26F8845EFF98 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		F8B6BE4B9407E8BD8A444C214CF884D3 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC263EC828F4C7963350F9D6A5C83CAC /* R.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4403AD9DBF18285961C09BA78FBE67C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F11F7A5D5C57CFD358A214B83663D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DE2C4015E757C3770D112DAD047808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D9DCCE35801E6D80E9A2446A4BA9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179193F211E9D35A78E80F2BA195CA3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				744BF815CFB769642B844DC5CE1AB066 /* DHLCustomDatePicker.modulemap */,
+				AA6B441159A3DE3902FBD71BFB8763FB /* DHLCustomDatePicker-dummy.m */,
+				6842CE501DB9E6B0407B3FC39F3645BC /* DHLCustomDatePicker-prefix.pch */,
+				4B2FAF2AD72B2F746C7DB95A4FE98FD6 /* DHLCustomDatePicker-umbrella.h */,
+				6D818A4D0EDB28DCF0082BC8FD7E6C4F /* DHLCustomDatePicker.debug.xcconfig */,
+				E1E28929D63FBFA8CA8DB4E4A503FF1E /* DHLCustomDatePicker.release.xcconfig */,
+				3AC62709AF8102176A6500697741CD5E /* ResourceBundle-DHLCustomDatePickerResources-DHLCustomDatePicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DHLCustomDatePicker";
+			sourceTree = "<group>";
+		};
+		299623082A6278DD6D5C4AD97DFA04D9 /* DHLCustomDatePickerModal */ = {
+			isa = PBXGroup;
+			children = (
+				8797A75F343D89F3D0FD1142AFD7D3D3 /* DHLCustomDatePickerModal.swift */,
+				42477D5BEB9490F67C3BC2B28A139AA2 /* DHLCustomDatePickerModal.xib */,
+			);
+			name = DHLCustomDatePickerModal;
+			path = DHLCustomDatePickerModal;
+			sourceTree = "<group>";
+		};
+		35E2E6BABD482C831B52A5FD52E16DBF /* DHLCustomDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				77CEEACB22C1F955C4DE731A268A8B96 /* DHLCustomDatePicker.swift */,
+				8BEFAEFAA306B776066C7DCCA5CAB4EA /* DHLCustomDatePicker.xib */,
+			);
+			name = DHLCustomDatePicker;
+			path = DHLCustomDatePicker;
+			sourceTree = "<group>";
+		};
+		38980391B4DD832D7262B9AD9F82B7F4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6288C0646DF749075C104F6A29F35E94 /* DHLCustomDatePicker.podspec */,
+				B253E2B493B23EF078CB56DEAE334873 /* LICENSE */,
+				3D9449D136464BAF5ADC95DC0816C704 /* README.md */,
+				23269E75E71F152B37625B272380211A /* screenshot1.png */,
+				030B5A77BABE115F1E6C2C239E388F98 /* screenshot2.png */,
+				8DF2F1EEB1D71447F8F4A6D1BC8A812A /* screenshot3.png */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6175F76A709D89A745234C5440684C67 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE24CC1D7D5952870F7CDB30F496FA13 /* Pods-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6996D19FAF96E5456E1487C0B019E7D9 /* R.swift */ = {
+			isa = PBXGroup;
+			children = (
+				D1F1ABDD9E6E149E3636B5E030916336 /* AssetCatalog.swift */,
+				E69543B67B85173BF6F063FFF7501EBF /* Bundle+Extensions.swift */,
+				D0385BA29159305467C0547C16CCFEA7 /* ColorResource.swift */,
+				AA77E1439CD31F49E42AADE0B0E303D6 /* ColorResource+Integrations.swift */,
+				1A55749926304F53C7BA8CCBD599972C /* DataResource.swift */,
+				748B50B8C9F1A318B786829EB514449E /* DataResource+Integrations.swift */,
+				6E7B6F48EDC8E1418FDD31516A4E08D9 /* DeploymentTarget.swift */,
+				B0DAC91CF737D738227FCEDD3D78BB55 /* FileResource.swift */,
+				86B7338D00ECE772BF3315C667BF457B /* FileResource+Integrations.swift */,
+				C783BDCE9DE73CF950931CADFC8027A7 /* FontResource.swift */,
+				684B34BE3BAE2EBF32DB2AE8E4594BDD /* FontResource+Integrations.swift */,
+				575CD9F452224904AB6520CAF9929CD5 /* ImageResource.swift */,
+				A05CBF023144622042468D519255E5BF /* ImageResource+Integrations.swift */,
+				D11BA17B3CC2D835DBCCF7BC24DB73AC /* LocaleReference.swift */,
+				5EFB7CE8082E8EC98F18201777CB429B /* ModuleReference.swift */,
+				66BA5E9BE9A4B778B2EB671435E8AB21 /* NameCatalog.swift */,
+				D8B63CF2BBF0C3948C3BC47C60AE1B0D /* NibReference+Integrations.swift */,
+				3552340E316DF61867FBDF42C500B9DE /* NibResource.swift */,
+				8CDB59A0563791317C9F4B31B5ABD0A8 /* PropertyListResource.swift */,
+				932C98D4B5CBF35F438660EEAEC88056 /* Reusable.swift */,
+				ECD1655716619A484B7F0E0AA458C28A /* ReuseIdentifier+Integrations.swift */,
+				E92BB7FF2FE2F318CFA05BF3D26CA1F2 /* SegueIdentifier+Integrations.swift */,
+				D82567F4EE63BF21DFF7DCF0FA796EFE /* StoryboardReference.swift */,
+				748B6182DDFC5F19B2BCDEB1AB54E860 /* StoryboardReference+Integrations.swift */,
+				5F6EAD167D71D7448D32C455BE5608C5 /* StoryboardResource.swift */,
+				542DF41C16D1CE6383674BA8033AAB4B /* StringParam.swift */,
+				BA613D973624B229ADDB6EB959468CCF /* StringParam+Extensions.swift */,
+				4597D4EB602468F9985382499374F3DC /* StringResource.swift */,
+				47748B537F768AF6C136076DABAC29A6 /* StringResource+Integrations.swift */,
+				D388A032719EC173A35E85E25CEC628E /* StringsTable.swift */,
+				0E79F28330C59DE36B7859B2AABC1EFE /* TypeReference.swift */,
+				054D482E4E4298FA903693317844CBEA /* Unifiable.swift */,
+				DA17C12DFF93337D7D9AE9D2BA630D61 /* ValidationError.swift */,
+				F8C1E72DB73ECC5C96A5C960CCC1FF39 /* Support Files */,
+			);
+			name = R.swift;
+			path = R.swift;
+			sourceTree = "<group>";
+		};
+		871C1E83131D72A2AD514FEA266199D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB6062B4A3699A675CC6D63253883AF7 /* Assets.xcassets */,
+				25FC8B5F646235688102C4ECF8B6A519 /* Strings.strings */,
+			);
+			name = Resources;
+			path = DHLCustomDatePicker/Resources;
+			sourceTree = "<group>";
+		};
+		99B1590DC32583A7BC25FB12017397F2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1D93DFDE81489B602DA5D5BFF998729 /* DHLCustomDatePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9DB43ACB9BA3DCF88E7B4042FC75659A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6996D19FAF96E5456E1487C0B019E7D9 /* R.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2D38523763242BE1AE389DD9C922A63 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				35E2E6BABD482C831B52A5FD52E16DBF /* DHLCustomDatePicker */,
+				299623082A6278DD6D5C4AD97DFA04D9 /* DHLCustomDatePickerModal */,
+			);
+			name = Custom;
+			path = DHLCustomDatePicker/Custom;
+			sourceTree = "<group>";
+		};
+		ACAD311A4FB7014511ACCCA69DEBE47B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A95DFA2E56A3CDF0576B905A2F3F084 /* DHLCustomDatePicker */,
+				A5A8CC5AB455B8F017E8F7AD001AF18D /* DHLCustomDatePicker-DHLCustomDatePickerResources */,
+				1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */,
+				3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE24CC1D7D5952870F7CDB30F496FA13 /* Pods-Example */ = {
+			isa = PBXGroup;
+			children = (
+				8390C1797A666D89BE05AA8852B57C3F /* Pods-Example.modulemap */,
+				F8B6BE4B9407E8BD8A444C214CF884D3 /* Pods-Example-acknowledgements.markdown */,
+				DAD8FC1C05C3A265F0125B44562436CC /* Pods-Example-acknowledgements.plist */,
+				EE8D2190D165A86988AB26F8845EFF98 /* Pods-Example-dummy.m */,
+				BD7866B2B30C313056837B983F1071EB /* Pods-Example-resources.sh */,
+				E502162F64028620AB3116216016E650 /* Pods-Example-umbrella.h */,
+				8E3451E6F481D3A92D950285A5AFC6BB /* Pods-Example.debug.xcconfig */,
+				A17761FCBF0C42D2747F176250E12C3F /* Pods-Example.release.xcconfig */,
+			);
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+		C27F3D1801CD1315DDDAEC285C1CA46C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				58AC4AB4FEAD2454473C6C10C80BF79D /* BundleHelper.swift */,
+			);
+			name = Helpers;
+			path = DHLCustomDatePicker/Helpers;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				99B1590DC32583A7BC25FB12017397F2 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				9DB43ACB9BA3DCF88E7B4042FC75659A /* Pods */,
+				ACAD311A4FB7014511ACCCA69DEBE47B /* Products */,
+				6175F76A709D89A745234C5440684C67 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1D93DFDE81489B602DA5D5BFF998729 /* DHLCustomDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A2D38523763242BE1AE389DD9C922A63 /* Custom */,
+				C27F3D1801CD1315DDDAEC285C1CA46C /* Helpers */,
+				38980391B4DD832D7262B9AD9F82B7F4 /* Pod */,
+				871C1E83131D72A2AD514FEA266199D9 /* Resources */,
+				179193F211E9D35A78E80F2BA195CA3A /* Support Files */,
+			);
+			name = DHLCustomDatePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F8C1E72DB73ECC5C96A5C960CCC1FF39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				441D77CD2FAB07C577EE0E248BDAB35D /* R.swift.modulemap */,
+				1D3D92D7C5E06B377504A19D06AF3AA7 /* R.swift-dummy.m */,
+				FC263EC828F4C7963350F9D6A5C83CAC /* R.swift-prefix.pch */,
+				323A3B22BD073F87D069CC9A8E225149 /* R.swift-umbrella.h */,
+				0547AE5857C4A2667F4E6604A9638930 /* R.swift.debug.xcconfig */,
+				CCB43FDA2424F206FEED4D097721FBE8 /* R.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/R.swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D24CF0AF630DC33104F280106244424 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6AAE437D4442C1B5178BF351DC8172 /* DHLCustomDatePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B72CA678DAB2BED70183DFDE71E0DB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6E04A774EBD7913E2E520F1A380757 /* Pods-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB60AD9C212B6FBA5C00FBFC5EAAED13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4412FB944BA50E12271062B8BDBCE568 /* R.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00235C729AE31BB9CD3EADC456BC9BF /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				3B72CA678DAB2BED70183DFDE71E0DB2 /* Headers */,
+				96DBD0868A22202765B3C299E8839A6C /* Sources */,
+				C7DE2C4015E757C3770D112DAD047808 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F99BBE78A5CEF7FBB3F75057C19160 /* PBXTargetDependency */,
+				D3F94ED6B0AFA8DB676767BF87775812 /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0B154934C7B0C5981DDBF01B115F5ACE /* DHLCustomDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D3F2F9F4FACEB4DC67AB3AFE87075B /* Build configuration list for PBXNativeTarget "DHLCustomDatePicker" */;
+			buildPhases = (
+				1D24CF0AF630DC33104F280106244424 /* Headers */,
+				1FA6C9E4A7A67A37D6C32A66EF66D16B /* Sources */,
+				4403AD9DBF18285961C09BA78FBE67C8 /* Frameworks */,
+				7ED76AF40F1E9484C2E42597658D4891 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52147E7A7B09C464C6A948E097E58BDF /* PBXTargetDependency */,
+			);
+			name = DHLCustomDatePicker;
+			productName = DHLCustomDatePicker;
+			productReference = 7A95DFA2E56A3CDF0576B905A2F3F084 /* DHLCustomDatePicker */;
+			productType = "com.apple.product-type.library.static";
+		};
+		230984053C6652DFF510F450F21C5CF7 /* R.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1550F13C1665CD0AFACD759FF874874 /* Build configuration list for PBXNativeTarget "R.swift" */;
+			buildPhases = (
+				EB60AD9C212B6FBA5C00FBFC5EAAED13 /* Headers */,
+				5610CDE7DFEC15B12736F3F85DAA66C3 /* Sources */,
+				D5D9DCCE35801E6D80E9A2446A4BA9FB /* Frameworks */,
+				116E3239ED2EB28E03F31258C8B2C3FC /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = R.swift;
+			productName = R.swift;
+			productReference = 3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */;
+			productType = "com.apple.product-type.library.static";
+		};
+		96FA8C7A5631DFB1A14E102C389CA5D6 /* DHLCustomDatePicker-DHLCustomDatePickerResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93955D0A31D12EE27F365AE91C5CD09 /* Build configuration list for PBXNativeTarget "DHLCustomDatePicker-DHLCustomDatePickerResources" */;
+			buildPhases = (
+				A9AC4A0A06944A13BDFB41560FE437F7 /* Sources */,
+				9F11F7A5D5C57CFD358A214B83663D87 /* Frameworks */,
+				702F9A6DD2038747C09923009B196B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DHLCustomDatePicker-DHLCustomDatePickerResources";
+			productName = DHLCustomDatePickerResources;
+			productReference = A5A8CC5AB455B8F017E8F7AD001AF18D /* DHLCustomDatePicker-DHLCustomDatePickerResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				es,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ACAD311A4FB7014511ACCCA69DEBE47B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B154934C7B0C5981DDBF01B115F5ACE /* DHLCustomDatePicker */,
+				96FA8C7A5631DFB1A14E102C389CA5D6 /* DHLCustomDatePicker-DHLCustomDatePickerResources */,
+				0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */,
+				230984053C6652DFF510F450F21C5CF7 /* R.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		702F9A6DD2038747C09923009B196B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67732D10CF2EBB56C5246EEA61791EF0 /* Assets.xcassets in Resources */,
+				B7080FC5B6353670E8BE8834D6D9A4D3 /* DHLCustomDatePicker.xib in Resources */,
+				AA65345EE8CE469F72D033C6DFB0C27F /* DHLCustomDatePickerModal.xib in Resources */,
+				CF62E341A720926E984893B1472BE6E9 /* Strings.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116E3239ED2EB28E03F31258C8B2C3FC /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/RswiftResources/R.swift.modulemap",
+				"${PODS_ROOT}/Headers/Public/RswiftResources/R.swift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/R.swift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/RswiftResources/R.swift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/RswiftResources/R.swift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		7ED76AF40F1E9484C2E42597658D4891 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/DHLCustomDatePicker/DHLCustomDatePicker.modulemap",
+				"${PODS_ROOT}/Headers/Public/DHLCustomDatePicker/DHLCustomDatePicker-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/DHLCustomDatePicker-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/DHLCustomDatePicker/DHLCustomDatePicker.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/DHLCustomDatePicker/DHLCustomDatePicker-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA6C9E4A7A67A37D6C32A66EF66D16B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BE76345D6672D3AC105CCC5FD862E7 /* BundleHelper.swift in Sources */,
+				FF610C08C79F56D5A663F336D2F52561 /* DHLCustomDatePicker.swift in Sources */,
+				9B60000B681D2EF76883F197391D12A9 /* DHLCustomDatePicker-dummy.m in Sources */,
+				7051A84A37FF128D9C20C52CAC69568B /* DHLCustomDatePickerModal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5610CDE7DFEC15B12736F3F85DAA66C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A31033083E93690387EFA18A2ED2ED /* AssetCatalog.swift in Sources */,
+				CE2088A3B7F9E817FDAD1679B8085A7E /* Bundle+Extensions.swift in Sources */,
+				FE730F84C0B05E4E14F285F7600EAC2F /* ColorResource.swift in Sources */,
+				3BA69B22287C5E2E2E3728642FAC487F /* ColorResource+Integrations.swift in Sources */,
+				383BF5A5574D905855C66835D13832B9 /* DataResource.swift in Sources */,
+				68142E23A757A0444D19C003A3C8DB3C /* DataResource+Integrations.swift in Sources */,
+				200BEA5FFD55713F147C5DD12E923034 /* DeploymentTarget.swift in Sources */,
+				069A0E3DEA0E9C63869126BE9D89BD41 /* FileResource.swift in Sources */,
+				05D0892069657ABCAD0796C38095938F /* FileResource+Integrations.swift in Sources */,
+				1BD1B221D67FE5DE8FD9D0A74BF6B665 /* FontResource.swift in Sources */,
+				611AA2B580A3F6DF40DF5DC45749A619 /* FontResource+Integrations.swift in Sources */,
+				9C017D8F5D6481702758D7F41924A74E /* ImageResource.swift in Sources */,
+				A65F4A8DD24DA6D7BFBFA7923490BA0B /* ImageResource+Integrations.swift in Sources */,
+				C1F301EDCBBE44DD44065D1D47E4B072 /* LocaleReference.swift in Sources */,
+				7A2B91D8A71F82FEAC84E4FF562D6C77 /* ModuleReference.swift in Sources */,
+				F5C0E5D168CA07E6A22022B90C66EFCC /* NameCatalog.swift in Sources */,
+				98749F823B49502386CE9CE1B7954FB3 /* NibReference+Integrations.swift in Sources */,
+				3897D562C6B47098579453B9196ECA2F /* NibResource.swift in Sources */,
+				AF3E1895495744E4771B58E46EDB989E /* PropertyListResource.swift in Sources */,
+				253A63702AC8BAC3CBEA1A6FA732D263 /* R.swift-dummy.m in Sources */,
+				2178855AECCA79953253D603EDBDA5F1 /* Reusable.swift in Sources */,
+				09ADF7FE37BA90916059BB6C15339079 /* ReuseIdentifier+Integrations.swift in Sources */,
+				49D8B3B2A8B6B6645FE318094D3C7E36 /* SegueIdentifier+Integrations.swift in Sources */,
+				7CC6FD1EF56A83F28CDE8254E66DFA44 /* StoryboardReference.swift in Sources */,
+				043EDF3E8EA9DD58DDB62F7736CF02B2 /* StoryboardReference+Integrations.swift in Sources */,
+				D78269D968C2D446F5D11F4051B4CB36 /* StoryboardResource.swift in Sources */,
+				1B59A858F713A361D963D64EBB91E3B2 /* StringParam.swift in Sources */,
+				6E4F2EC3C4A59FD9D74B9A88B6AF14B6 /* StringParam+Extensions.swift in Sources */,
+				11F65C6C4BE6E97FBB88C77092F59621 /* StringResource.swift in Sources */,
+				2398CAF15A0EFBEAAF0B4A0CD059CDAE /* StringResource+Integrations.swift in Sources */,
+				8F63EBDF82D91E6BD755B8306A4CB5A6 /* StringsTable.swift in Sources */,
+				35504AF960D1AC934DB1CCA81FC929FA /* TypeReference.swift in Sources */,
+				DF66400F9451B3B98B1FEA8D1DC82010 /* Unifiable.swift in Sources */,
+				4B026B67664244CCBBBDF435A4BB5E73 /* ValidationError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96DBD0868A22202765B3C299E8839A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505E1A7BA76CB421F0F309DE482F8FDC /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AC4A0A06944A13BDFB41560FE437F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05F99BBE78A5CEF7FBB3F75057C19160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DHLCustomDatePicker;
+			target = 0B154934C7B0C5981DDBF01B115F5ACE /* DHLCustomDatePicker */;
+			targetProxy = 11BF62653D3CEAD2CC0F59904E107B4D /* PBXContainerItemProxy */;
+		};
+		52147E7A7B09C464C6A948E097E58BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DHLCustomDatePicker-DHLCustomDatePickerResources";
+			target = 96FA8C7A5631DFB1A14E102C389CA5D6 /* DHLCustomDatePicker-DHLCustomDatePickerResources */;
+			targetProxy = F8B38EB1EF01D97C58245610815CD3F0 /* PBXContainerItemProxy */;
+		};
+		D3F94ED6B0AFA8DB676767BF87775812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift;
+			target = 230984053C6652DFF510F450F21C5CF7 /* R.swift */;
+			targetProxy = BB6622D05F1FA69D4DA181B49F732250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25FC8B5F646235688102C4ECF8B6A519 /* Strings.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DFB7B3BFB6BA725569D833AC9C6AACE /* Strings.strings */,
+				498A44E0F56CD81DD9E004882CACA99A /* Strings.strings */,
+			);
+			name = Strings.strings;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33DB62F721B573AB101479495BE214AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D818A4D0EDB28DCF0082BC8FD7E6C4F /* DHLCustomDatePicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/DHLCustomDatePicker/DHLCustomDatePicker-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MODULEMAP_FILE = Headers/Public/DHLCustomDatePicker/DHLCustomDatePicker.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DHLCustomDatePicker;
+				PRODUCT_NAME = DHLCustomDatePicker;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		77478DE75436271E07CBAC80674EAD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3451E6F481D3A92D950285A5AFC6BB /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8861C5484B578EC88CC1F431FDFAE7AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E28929D63FBFA8CA8DB4E4A503FF1E /* DHLCustomDatePicker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DHLCustomDatePicker";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				IBSC_MODULE = DHLCustomDatePicker;
+				INFOPLIST_FILE = "Target Support Files/DHLCustomDatePicker/ResourceBundle-DHLCustomDatePickerResources-DHLCustomDatePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = DHLCustomDatePickerResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8A674136652651F01D1965F44CA82EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D818A4D0EDB28DCF0082BC8FD7E6C4F /* DHLCustomDatePicker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DHLCustomDatePicker";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				IBSC_MODULE = DHLCustomDatePicker;
+				INFOPLIST_FILE = "Target Support Files/DHLCustomDatePicker/ResourceBundle-DHLCustomDatePickerResources-DHLCustomDatePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = DHLCustomDatePickerResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8FE7A72B1D6EAB4ED6A404401262F666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB43FDA2424F206FEED4D097721FBE8 /* R.swift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift/R.swift-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MODULEMAP_FILE = Headers/Public/RswiftResources/R.swift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RswiftResources;
+				PRODUCT_NAME = R.swift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C489F2809AE01C42F1F27F60A5922C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0547AE5857C4A2667F4E6604A9638930 /* R.swift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift/R.swift-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MODULEMAP_FILE = Headers/Public/RswiftResources/R.swift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RswiftResources;
+				PRODUCT_NAME = R.swift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C62E4221C55EF83C5156179C6A56876D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E28929D63FBFA8CA8DB4E4A503FF1E /* DHLCustomDatePicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/DHLCustomDatePicker/DHLCustomDatePicker-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MODULEMAP_FILE = Headers/Public/DHLCustomDatePicker/DHLCustomDatePicker.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DHLCustomDatePicker;
+				PRODUCT_NAME = DHLCustomDatePicker;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD97A97970CE04143D17D476419EC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17761FCBF0C42D2747F176250E12C3F /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1550F13C1665CD0AFACD759FF874874 /* Build configuration list for PBXNativeTarget "R.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C489F2809AE01C42F1F27F60A5922C3F /* Debug */,
+				8FE7A72B1D6EAB4ED6A404401262F666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93955D0A31D12EE27F365AE91C5CD09 /* Build configuration list for PBXNativeTarget "DHLCustomDatePicker-DHLCustomDatePickerResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A674136652651F01D1965F44CA82EA4 /* Debug */,
+				8861C5484B578EC88CC1F431FDFAE7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00235C729AE31BB9CD3EADC456BC9BF /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77478DE75436271E07CBAC80674EAD0C /* Debug */,
+				FCD97A97970CE04143D17D476419EC4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D3F2F9F4FACEB4DC67AB3AFE87075B /* Build configuration list for PBXNativeTarget "DHLCustomDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DB62F721B573AB101479495BE214AC /* Debug */,
+				C62E4221C55EF83C5156179C6A56876D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

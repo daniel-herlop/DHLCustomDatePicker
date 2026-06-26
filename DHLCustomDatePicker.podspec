@@ -6,7 +6,7 @@ s.name = "DHLCustomDatePicker"
 s.summary = "Selector de fecha y hora"
 s.requires_arc = true
 
-s.version = "1.0.3"
+s.version = "1.0.4"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -21,10 +21,14 @@ s.framework = "UIKit"
 
 s.source_files = "DHLCustomDatePicker/**/*.{swift}"
 
-# 9
-s.resources = "DHLCustomDatePicker/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
+#s.resources = "DHLCustomDatePicker/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 
-# 10
+s.resource_bundles = {
+  'DHLCustomDatePickerResources' => [
+    'DHLCustomDatePicker/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}'
+  ]
+}
+
 s.swift_version = "5.0"
 
 end

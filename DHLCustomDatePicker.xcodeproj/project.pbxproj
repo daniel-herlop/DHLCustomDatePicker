@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6241654D7C0D3EC6B4CA855C /* libPods-DHLCustomDatePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDD92160423A67198E9FE70 /* libPods-DHLCustomDatePicker.a */; };
+		D7E028E72FEE94100078EC87 /* BundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E028E52FEE94100078EC87 /* BundleHelper.swift */; };
 		D7EC29402FCD92AA009A830C /* DHLCustomDatePickerModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7EC293B2FCD92AA009A830C /* DHLCustomDatePickerModal.xib */; };
 		D7EC29412FCD92AA009A830C /* DHLCustomDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7EC293E2FCD92AA009A830C /* DHLCustomDatePicker.xib */; };
 		D7EC29422FCD92AA009A830C /* DHLCustomDatePickerModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EC293A2FCD92AA009A830C /* DHLCustomDatePickerModal.swift */; };
@@ -21,6 +22,7 @@
 		CDDD92160423A67198E9FE70 /* libPods-DHLCustomDatePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHLCustomDatePicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B16DBD30CBFA4D50B16B2F /* Pods-DHLCustomDatePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHLCustomDatePicker.release.xcconfig"; path = "Target Support Files/Pods-DHLCustomDatePicker/Pods-DHLCustomDatePicker.release.xcconfig"; sourceTree = "<group>"; };
 		D77B34C52FD063C700DAD377 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Strings.strings; sourceTree = "<group>"; };
+		D7E028E52FEE94100078EC87 /* BundleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleHelper.swift; sourceTree = "<group>"; };
 		D7EC292A2FCD90CD009A830C /* DHLCustomDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DHLCustomDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EC293A2FCD92AA009A830C /* DHLCustomDatePickerModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLCustomDatePickerModal.swift; sourceTree = "<group>"; };
 		D7EC293B2FCD92AA009A830C /* DHLCustomDatePickerModal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHLCustomDatePickerModal.xib; sourceTree = "<group>"; };
@@ -59,6 +61,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D7E028E62FEE94100078EC87 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D7E028E52FEE94100078EC87 /* BundleHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		D7EC29202FCD90CD009A830C = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +90,7 @@
 		D7EC29372FCD9270009A830C /* DHLCustomDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				D7E028E62FEE94100078EC87 /* Helpers */,
 				D7EC29392FCD9281009A830C /* Custom */,
 				D7EC29442FCD9300009A830C /* Resources */,
 			);
@@ -234,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7EC29422FCD92AA009A830C /* DHLCustomDatePickerModal.swift in Sources */,
+				D7E028E72FEE94100078EC87 /* BundleHelper.swift in Sources */,
 				D7EC29432FCD92AA009A830C /* DHLCustomDatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
